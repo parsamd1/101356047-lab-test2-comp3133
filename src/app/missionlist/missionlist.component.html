@@ -1,0 +1,12 @@
+@for (mission of missionList; track $index) {
+    <!-- <button> -->
+        <div style="background-color: blueviolet; border-radius: 5px; margin-bottom: 10px; max-width: 50vw; display: flex;padding: 10px;">
+            <img src="{{mission.links.mission_patch_small}}" alt="image" width="50" height="50" style="margin-right: 15px;"/>
+            <div>
+                <b>{{mission.mission_name}}</b><br>
+                {{mission.launch_year}}<br>
+                {{mission.details}}
+            </div>
+        </div>
+    <!-- </button> -->
+}
